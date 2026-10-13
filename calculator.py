@@ -3,27 +3,14 @@
 a = 20
 b = 11.2
 
-print("1. Addition (+)")
-print("2. Subtraction (-)")
-print("3. Multiplication (*)")
-print("4. Division (/)")
+print("ADD =", a + b)
 
-choice = input("Enter your choice (1-4): ")
+print("SUBTRACT =", a - b)
 
-if choice == '1':
-    print("Result =", a + b)
 
-elif choice == '2':
-    print("Result =", a - b)
+print("MULTIPLY =", a * b)
 
-elif choice == '3':
-    print("Result =", a * b)
 
-elif choice == '4':
-    if b != 0:
-        print("Result =", a / b)
-    else:
-        print("Error: Division by zero is not allowed!")
-
-else:
-    print("Invalid choice!")
+print("DIVIDE =", a / b)
+    
+    
