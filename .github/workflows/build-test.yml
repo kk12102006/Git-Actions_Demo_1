@@ -26,4 +26,4 @@ jobs:
           pip install pytest
 
       - name: Run tests
-        run: 1.py
+        run: calculator.py
