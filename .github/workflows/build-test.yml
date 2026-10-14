@@ -26,4 +26,5 @@ jobs:
           pip install pytest
 
       - name: Run tests
-        run: python calculator.py
+        run: |
+          printf "10\n20" | python calculator.py
