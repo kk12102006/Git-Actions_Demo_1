@@ -1,7 +1,7 @@
 # Basic Calculator
 
-a = 20
-b = 11.2
+a = float(input("Enter the first number: "))
+b = float(input("Enter the second number: "))
 
 print("ADD =", a + b)
 
